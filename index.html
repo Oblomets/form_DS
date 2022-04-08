@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="form">
+        <form class="form__body" action="#">
+            <h1 class="form__title">Задать вопрос</h1>
+            <div class="form__content">
+                <input type="text" class="form__item" name="name" placeholder="Фамилия Имя Отчество *" pattern="^[А-Яа-яЁё\s\-]+$" required>
+            </div>
+            <div class="form__content">
+                <input type="tel" class="form__item" name="phone" placeholder="Телефон *" pattern="^[ 0-9\s\-\+]+$" required>
+            </div>
+            <div class="form__content">
+                <input type="email" class="form__item" name="email" placeholder="Email">
+            </div>
+            <div class="form__content">
+                <input type="submit" class="form__submit" value="Отправить запрос">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
