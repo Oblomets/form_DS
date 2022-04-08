@@ -56,3 +56,13 @@
     text-transform: uppercase;
     letter-spacing: -0.5px;
 }
+.form__submit:hover{
+    transition: .5s;
+    background: #a2aae4;
+    color: #3B3D43;
+}
+.form__submit:active{
+    transition: .5s;
+    background: #6979F8;
+    color: #ffffff;
+}
